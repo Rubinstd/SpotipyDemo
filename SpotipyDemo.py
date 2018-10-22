@@ -40,4 +40,4 @@ for result in search_result["tracks"]["items"]:
     info = sp.audio_features(result["external_urls"]["spotify"])
 
     # Prints out the BPM for the song.
-    print("BPM: " + info[0]["tempo"])
+    print("BPM - " + str(info[0]["tempo"]))

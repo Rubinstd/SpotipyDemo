@@ -31,7 +31,7 @@ search_result = sp.search(search_str)
 # Loops through every search result.
 for result in search_result["tracks"]["items"]:
     # Prints the song name and artist.
-    print(song["name"] + " By: " + result["artists"][0]["name"])
+    print(result["name"] + " By: " + result["artists"][0]["name"])
 
     # Contacts spotify asking for the json formatted string with the search results features.
     # Once again, depending on the features you want, this can be edited.

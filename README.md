@@ -1,5 +1,7 @@
 # SpotipyDemo
 
+Testing the spotipy python API
+
 ## Notes before using
 The spotipy API must be installed. This can be done through a variety of ways, ask me to let me know how you're doing it.
 
